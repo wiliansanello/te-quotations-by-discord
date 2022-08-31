@@ -2,7 +2,7 @@ import 'dotenv/config'
 import express from 'express'
 import { InteractionType, InteractionResponseType } from 'discord-interactions'
 import { HasGuildCommands, TEST_COMMAND } from './commands.js'
-import { VerifyDiscordRequest } from './utils.js'
+import { VerifyDiscordRequest } from '../utils.js'
 
 const app = express()
 const PORT = process.env.PORT || 3000
