@@ -10,3 +10,5 @@ Este projeto implementa o envio de dados de cotações de commodities do agroneg
 
 ## Rodando o projeto em sua máquina.
 Abra o terminal de seu sistema operacional, vá para o diretório onde o repositório foi salvo/clonado e digite o comando **npm install** para que todos os módulos indexados ao projeto sejam instalados.
+No diretório raiz do projeto, deverá ser criado um arquivo chamado **.env** , que armazena as variáveis de ambiente utilizadas pelo projeto.
+no momento, está seno usada somente a variável **TOKEN**, que guarda o token do app do Discord.
